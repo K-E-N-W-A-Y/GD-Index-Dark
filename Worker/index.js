@@ -1,15 +1,15 @@
 var authConfig = {
-  siteName: 'G-Index', // WebSite Name
+  siteName: 'GD-Index-Dark', // WebSite Name
   version: '1.0', // VersionControl, do not modify manually
   // Only material!
   theme: 'material', // material  classic
    //add themes color, darkmode
   main_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
   accent_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
-  dark_theme: false, // true for dark theme
+  dark_theme: true, // true for dark theme
   // client_id & client_secret - PLEASE USE YOUR OWN!
-  client_id: '202264815644.apps.googleusercontent.com',
-  client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
+  client_id: '',
+  client_secret: '',
   refresh_token: '', // Refresh token
 
   /**
@@ -121,7 +121,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
   </script>
   <script>var main_color = "${authConfig.main_color}";var accent_color = "${authConfig.accent_color}";var dark = ${authConfig.dark_theme};</script>
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/LeeluPradhan/G-Index@${authConfig.version}/Search/themes/${authConfig.theme}/app.js"></script>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/K-E-N-W-A-Y/GD-Index-Dark-Index/Search/themes/${authConfig.theme}/app.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
 </head>
 <body>
