@@ -55,4 +55,4 @@ or
 
 ### Credits
 https://github.com/yanzai/goindex
-https://github.com/LeeluPradhan
+https://github.com/LeeluPradhan/G-Index
